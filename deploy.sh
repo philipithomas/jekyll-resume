@@ -2,7 +2,7 @@
 # Script for deploying a jekyll build to AWS
 
 # Push the build using the s3_website.yml settings
-bundle exec s3_website push --headless
+bundle exec s3_website push
 
 # Clear the Cloudflare cache
 curl https://www.cloudflare.com/api_json.html \
