@@ -1,0 +1,26 @@
+general:
+  branches:
+    only:
+      - master
+
+machine:
+  timezone:
+    America/Los_Angeles
+  ruby:
+    version:
+      2.1.1
+
+dependencies:
+  post:
+    - bundle exec jekyll build:
+        timeout: 300 # 10 min
+
+test:
+  override:
+    - echo "No tests are needed"
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - bash deploy.sh:

@@ -1,0 +1,55 @@
+# Use this file to control the main attributes of the website
+
+# You
+name: Philip I. Thomas
+
+# Title for your site as it will appear in google
+# e.g. Resume, Curriculum Vitae, Work History
+title: Resume for Philip I. Thomas
+
+# SEO description
+description: Digital resume for Philip I. Thomas, explorer and engineer in San Francisco.
+
+# URL of this resume
+url: 'http://resume.practicaljekyll.com'
+
+# URL of your personal website (make same as URL if you don't have one)
+personal: 'https://www.philipithomas.com'
+
+# these should be pretty self-explanatory :-P
+email: mail@philipithomas.com
+twitter: philipithomas
+
+# Show this in the footer
+copyright: All rights reserved.
+
+# What should the navigation be called?
+navigation: navigation
+
+# Google analytics ID: UA-XXXXX-X
+analytics: UA-XXXXX-X
+
+# Jekyll assets gem
+assets:
+  dirname: assets
+  baseurl: /assets/
+  css_compressor: yui
+  js_compressor: yui
+  cachebust: hard
+  cache: false
+  gzip: nil # Cloudflare will do this
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+
+# Files in this repo that we don't want to go to the web
+exclude: [
+  'scss',
+  '*.rb',
+  '*.yml', 
+  'vendor', 
+  'Gemfile', 
+  'Gemfile.lock',
+  '*.sh',
+]
