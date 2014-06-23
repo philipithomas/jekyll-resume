@@ -4,25 +4,11 @@ layout: default
 <header class="app-bar promote-layer">
   <div class="app-bar-container">
     <button class="menu"><img src="images/hamburger.svg" alt="menu"></button>
-    <h1 class="logo">{{ site.name }}</h1>
-    <section class="app-bar-actions">
-    <!-- Put App Bar Buttons Here -->
-    </section>
+    <h1 class="logo">{{ site.title }}</h1>
   </div>
 </header>
-
-<nav class="navdrawer-container promote-layer">
-  <h4>{{ site.navigation }}</h4>
-  <ul>
-    <li><a href="#hello">Hello</a></li>
-    <li><a href="#get-started">Get Started</a></li>
-    <li><a href="styleguide/index.html">Style Guide</a></li>
-  </ul>
-</nav>
-
-<main>
-    {{ content }}
-</main>
+ 
+{{ content }}
 
 <!-- build:js scripts/main.min.js -->
 <script src="scripts/main.js"></script>
