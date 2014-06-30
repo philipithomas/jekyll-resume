@@ -1,0 +1,15 @@
+- org:  OpenDNS
+  role: Software Engineer, Beacon Team
+  location: San Francisco, CA
+  when: May 2013 - Now
+  bullets: 
+    - Plan, develop, and deploy a fault-tolerant, distributed, real-time log aggregation system for roaming clients to scale to millions of users using Docker, nginx, and Amazon Web Services.
+    - Formerly A-Team: Short-term bug fix team emphasizing rapid deployment across all infrastructure, with production code in front-end MVC, API, Hadoop, server configuration management, advertisement optimization, native Windows application, and native OS X application.
+
+- org: Cultivation Capital
+  role: Analyst
+  location: St. Louis, MO
+  when: Mar 2012 - May 2013
+  bullets: 
+    - Performed screening of potential investments with a focus on technical analysis.
+    - Contributed to the analysis of most initial investments, resulting in the fund being recognized as a [Top 12 Midwest Venture Player](http://www.forbes.com/sites/karstenstrauss/2013/08/26/big-money-midwest-12-venture-players/) by Forbes

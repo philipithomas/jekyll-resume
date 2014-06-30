@@ -17,21 +17,13 @@ layout: main
                 {{ section.name }}
             </h2>
             <hr />
-
-            <ul>
-                <li>
-                    This
-                </li>
-                <li>
-                    is
-                </li>
-                <li>
-                    a
-                </li>
-                <li>
-                    section
-                </li>
-            </ul>
+            {% capture section_layout %}resume/{{section.layout}}.html{% endcapture %}
+            {% for hash in site.data %}
+              {% if hash[0] == section.id %}
+                {% assign blurb = hash[1] %}
+                {% include {{section_layout}} %}
+              {% endif %}
+            {% endfor %}
         </div>
     {% endfor %}
 </main>
