@@ -39,9 +39,9 @@ assets:
   cache: false
   gzip: nil # Cloudflare will do this
   sources:
-    - _assets/javascripts
+    #- _assets/javascripts
     - _assets/stylesheets
-    - _assets/images
+    #- _assets/images
 
 # Files in this repo that we don't want to go to the web
 exclude: [
