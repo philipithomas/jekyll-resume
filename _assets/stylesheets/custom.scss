@@ -8,3 +8,31 @@
         opacity: .5;
     }
 }
+
+.block {
+    padding: 30px 0;
+
+    .main-row, .sub-row {
+        display: block;
+        clear: both;
+        width: 100%;
+        h1, h2, h3, h4, h5, h6 { 
+            padding: 6px 0 0 0;
+        }
+
+        .role, .org {
+            float: left;
+            text-align: left;
+            width: 60%;
+        }
+        .location, .when {
+            text-align: right;
+            float: right;
+            width: 40%;
+        }
+    }
+
+    ul {
+        margin-top: 10px;
+    }
+}

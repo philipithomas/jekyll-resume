@@ -4,7 +4,7 @@
   when: May 2013 - Now
   bullets: 
     - Plan, develop, and deploy a fault-tolerant, distributed, real-time log aggregation system for roaming clients to scale to millions of users using Docker, nginx, and Amazon Web Services.
-    - Formerly A-Team: Short-term bug fix team emphasizing rapid deployment across all infrastructure, with production code in front-end MVC, API, Hadoop, server configuration management, advertisement optimization, native Windows application, and native OS X application.
+    - Formerly A-Team - Short-term bug fix team emphasizing rapid deployment across all infrastructure, with production code in front-end MVC, API, Hadoop, server configuration management, advertisement optimization, native Windows application, and native OS X application.
 
 - org: Cultivation Capital
   role: Analyst
