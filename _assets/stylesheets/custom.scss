@@ -23,16 +23,17 @@
         .role, .org {
             float: left;
             text-align: left;
-            width: 60%;
+            width: 50%;
         }
         .location, .when {
             text-align: right;
             float: right;
-            width: 40%;
+            width: 50%;
         }
     }
 
     ul {
-        margin-top: 10px;
+        padding-top: 10px;
+        clear: both;
     }
 }
