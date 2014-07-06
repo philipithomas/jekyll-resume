@@ -28,6 +28,17 @@
 <!-- Chrome Add to Homescreen -->
 <link rel="shortcut icon" sizes="196x196" href="images/touch/touch-icon-196x196.png">
 
+<!-- Javascript -->
+{% javascript jquery %}
+<script type="text/javascript">
+    labels = [
+    {% for section in site.data.sections %}
+        "{{section.id}}",
+    {% endfor %}
+    ];
+</script>
+{% javascript scroller %}
+
 <!-- stylesheets -->
 {% stylesheet h5bp %}
 {% stylesheet components/components %}
