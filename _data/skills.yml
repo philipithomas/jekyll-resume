@@ -1,3 +1,32 @@
-- Languages
-- Frameworks
-- Systems
+- Languages:
+    primary:
+      - Python
+      - Javascript
+      - PHP
+    secondary:
+      - Bash
+      - Ruby
+      - Matlab
+- Frameworks:
+    primary:
+      - Flask
+      - Puppet
+    secondary:
+      - Chef
+      - Rails
+- Systems:
+    primary:
+      - Docker
+      - Jenkins
+    secondary:
+      - Nginx
+      - Logstash
+      - AWS
+- Technical:
+    primary:
+      - Statistics
+      - Operations Research
+    secondary:
+      - Signal Analysis
+      - AWS
+  
