@@ -16,6 +16,7 @@
       - Rails
 - Systems:
     primary:
+      - Debian
       - Docker
       - Jenkins
     secondary:
