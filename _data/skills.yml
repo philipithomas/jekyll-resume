@@ -1,12 +1,12 @@
 - Languages:
     primary:
       - Python
-      - Javascript
       - PHP
     secondary:
       - Bash
       - Ruby
       - Matlab
+      - Javascript
 - Frameworks:
     primary:
       - Flask
@@ -30,4 +30,4 @@
     secondary:
       - Signal Analysis
       - AWS
-  
+      - Artificial Intelligence

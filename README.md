@@ -33,7 +33,7 @@ Configure the basic parts of the website, including the name and description, us
 
 The resume has sections defined by the `_data/sections.yml` file. The name is the title of the section. The ID is a globally unique ID for the section that is used as a CSS id for the menu scroller. In addition, this specifies the name of the yml file in `_data` that the section pulls its data from. If you want to add or modify sections, this is the **core file for resume logic.** The layout specifies which layout in `_includes/resume/` to use for the section - it is loosely a "macro," but I should refactor the implementation to use a correct [Liquid](http://liquidmarkup.org/) macro.
 
-Modify the data for each section in `_data/` using [YAML](http://www.yaml.org/start.html). Most sections may use [Markdown](http://commonmark.org/) formatting, e.g. for links.
+Modify the data for each section in `_data/` using [YAML](http://www.yaml.org/start.html). The bullet sections support [Markdown](http://commonmark.org/) formatting, e.g. for links.
 
 ## Deployment
 
