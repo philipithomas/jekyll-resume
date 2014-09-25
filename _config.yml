@@ -11,7 +11,7 @@ title: Resume for Philip I. Thomas
 description: Digital resume for Philip I. Thomas, explorer and engineer in San Francisco.
 
 # URL of this resume
-url: 'http://resume.practicaljekyll.com'
+url: 'https://jekyll-resume.philipithomas.com'
 
 # URL of your personal website (make same as URL if you don't have one)
 personal: 'https://www.philipithomas.com'
@@ -27,7 +27,7 @@ copyright: All rights reserved.
 navigation: navigation
 
 # Google analytics ID: UA-XXXXX-X
-analytics: UA-XXXXX-X
+analytics: UA-9939917-25
 
 # Jekyll assets gem
 assets:
