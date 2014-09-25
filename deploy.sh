@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script for deploying a jekyll build to AWS
+# Script for deploying a jekyll build to AWS and purging Cloudflare cache
 
 # Push the build using the s3_website.yml settings
 bundle exec s3_website push
