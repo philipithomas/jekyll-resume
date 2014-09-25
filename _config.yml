@@ -52,4 +52,5 @@ exclude: [
   'Gemfile.lock',
   '*.sh',
   'README.md',
+  'LICENSE.md',
 ]
