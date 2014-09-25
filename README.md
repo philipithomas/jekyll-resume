@@ -42,4 +42,4 @@ I deploy the files on [AWS S3](https://aws.amazon.com/s3/) using [CircleCI](http
 ## Next Steps
 
 If you have changes to this repo, please [open an issue or a pull request](https://github.com/philipithomas/jekyll-resume). Read the post introducing the project [on my website](https://www.philipithomas.com/jekyll-resume/), and [follow me on twitter](https://twitter.com/philipithomas) or [join my mailing list](http://eepurl.com/VkZXf) to stay up-to-date with my latest projects.
-j
+
